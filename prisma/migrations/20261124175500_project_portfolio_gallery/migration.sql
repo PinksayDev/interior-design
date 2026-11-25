@@ -1,0 +1,3 @@
+ALTER TABLE "Project"
+ADD COLUMN "description" TEXT NOT NULL DEFAULT '',
+ADD COLUMN "galleryImages" TEXT[] NOT NULL DEFAULT ARRAY[]::TEXT[];
